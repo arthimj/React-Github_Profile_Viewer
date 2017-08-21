@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  background-color: #fafafa;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.bio-detail {
+  font-weight: 800;
+}
+
+.credits-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: #bbb;
+}
+
+.material-card-wide.mdl-card {
+  width: 412px;
+  z-index: 10;
+}
+.material-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+}
+.material-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.material-card-wide > .mdl-card__title {
+  height: 350px;
+}
