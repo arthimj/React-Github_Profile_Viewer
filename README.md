@@ -11,4 +11,4 @@ This application can be installed via npm by running `npm install`. Once install
 ## Tests
 There are a number of unit tests available which can be initalized via `npm run test`.
 
-![Example](assets/example.gif)
+![Example](assets/app_example.gif)
