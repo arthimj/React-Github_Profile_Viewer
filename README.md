@@ -1,4 +1,4 @@
-# React Redux GitHub Profile
+# React / Redux GitHub Profile
 This is a small single page application using React and Redux application which displays a users GitHub profile information from the GitHub API.
 
 ## Installation
