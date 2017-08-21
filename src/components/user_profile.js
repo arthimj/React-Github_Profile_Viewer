@@ -53,7 +53,7 @@ class UserProfile extends Component {
             <li className="mdl-list__item">
               <span className="mdl-list__item-primary-content">
                 <a href={`https://gist.github.com/${profile.login}`}>
-                  <i className="material-icons mdl-list__item-avatar">sort</i>
+                  <i className="material-icons mdl-list__item-avatar">reorder</i>
                 </a>
                 <span className="mdl-badge" data-badge={profile.public_gists}>Gists</span>
               </span>

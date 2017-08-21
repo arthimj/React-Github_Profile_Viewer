@@ -1,5 +1,8 @@
 html, body {
   height: 100%;
+}
+
+body {
   background-color: #fafafa;
 }
 
@@ -18,10 +21,6 @@ html, body {
   width: 100%;
 }
 
-.bio-detail {
-  font-weight: 800;
-}
-
 .credits-container {
   position: fixed;
   bottom: 0;
@@ -31,18 +30,29 @@ html, body {
   color: #bbb;
 }
 
+.bio-detail {
+  font-weight: 800;
+}
+
 .material-card-wide.mdl-card {
   width: 412px;
   z-index: 10;
 }
+
 .material-card-wide > .mdl-card__title {
   color: #fff;
   height: 176px;
 }
+
 .material-card-wide > .mdl-card__menu {
   color: #fff;
 }
 
 .material-card-wide > .mdl-card__title {
   height: 350px;
+}
+
+.material-icons {
+  font-size: 32px !important;
+  padding: 4px;
 }
