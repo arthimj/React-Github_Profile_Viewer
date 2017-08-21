@@ -1,15 +1,15 @@
 {
-  "name": "redux-simple-starter",
+  "name": "react-redux-gh-profile",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Single page application using React and Redux which displays a users GitHub profile information from the GitHub API.",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:JamesIves/react-redux-gh-profile.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "",
+  "author": "James Ives",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
