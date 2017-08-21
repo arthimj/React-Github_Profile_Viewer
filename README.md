@@ -4,7 +4,7 @@ This is a small single page application using React and Redux which displays a u
 The application will hold on to two pieces of Redux state, the profile information and the current response from the API request. If a user isn't found, or if there's a network issue with the request the application will inform you of such.
 
 ## Installation
-This application can be installed via NPM by running `npm install`. Once installed you're able to start launch the application in a local server by running `npm start`.
+This application can be installed via npm by running `npm install`. Once installed you're able to start launch the application in a local server by running `npm start`.
 
 ## Tests
 There are a number of unit tests available which can be initalized via `npm run test`.
