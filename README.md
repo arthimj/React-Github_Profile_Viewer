@@ -1,4 +1,4 @@
-# GitHub Profile Viewer :octopus: :octocat:
+# GitHub Profile Viewer :octopus: :cat:
 ![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)
 
 This is a small single page application using React and Redux which displays an organization or users [GitHub](https://github.com/) profile information from the [GitHub API](https://developer.github.com/v3/users/). The application styling uses [Google's Material Design Lite](https://getmdl.io/).
