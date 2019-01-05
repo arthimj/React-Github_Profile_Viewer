@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:6.14
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "./package.json" }}
+            - v1-dependencies-
+      - run:
+          command: yarn install
+      - save_cache:
+          paths:
+            - ~/node_modules
+          key: v1-dependencies-{{ checksum "./package.json" }}
+      - run:
+          command: yarn test

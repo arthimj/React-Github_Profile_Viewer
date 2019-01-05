@@ -1,5 +1,5 @@
 import { renderComponent, expect } from '../test_helper';
-import Credits from '../../src/components/credits';
+import Credits from '../../src/components/Credits';
 
 describe('Credits', () => {
   let component;

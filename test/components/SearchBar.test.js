@@ -1,5 +1,5 @@
 import { renderComponent , expect } from '../test_helper';
-import SearchBar from '../../src/components/search_bar';
+import SearchBar from '../../src/components/SearchBar';
 
 describe('SearchBar', () => {
   let component;

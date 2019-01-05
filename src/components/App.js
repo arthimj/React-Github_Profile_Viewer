@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import SearchBar from './search_bar';
-import UserProfile from './user_profile';
-import Credits from './credits';
+import React, {Component} from 'react';
+import SearchBar from './SearchBar';
+import UserProfile from './UserProfile';
+import Credits from './Credits';
 
 export default class App extends Component {
   render() {
